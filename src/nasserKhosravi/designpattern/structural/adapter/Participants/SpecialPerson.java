@@ -1,7 +1,7 @@
 package nasserKhosravi.designpattern.structural.adapter.Participants;
 
 /**
- * Created by Naser on 5/13/2017.
+ * Created by Naser on 5/13/2017
  */
 public class SpecialPerson extends Person implements ISpecialPerson{
 

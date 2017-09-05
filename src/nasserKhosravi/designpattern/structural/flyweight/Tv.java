@@ -8,11 +8,11 @@ public class Tv {
     private int size;
 
     public Tv(int size) {
-
         this.size = size;
     }
 
     public void printSize(){
         System.out.println(size);
     }
+
 }

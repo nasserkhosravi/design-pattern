@@ -2,9 +2,12 @@ package nasserKhosravi.designpattern.behavioral.chainofresponsility;
 
 /**
  * Created by Naser on 5/12/2017
- *
+ * story:
  * we have a hospital with 3 level of responsibility for patient
  * we must send prior patient and get which part is responsibility
+ *
+ * advantages:
+ *
  */
 public class EntryPointChainOfResponsibility {
 

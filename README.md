@@ -1,2 +1,2 @@
-# DEsign Pattern
-#Implementation Design Pattern in java
+#Collection Of Design Patterns
+#Implementation Design Pattern is in java

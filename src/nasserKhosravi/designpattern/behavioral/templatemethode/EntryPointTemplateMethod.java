@@ -12,20 +12,18 @@ import nasserKhosravi.designpattern.behavioral.templatemethode.participants.Huma
  * {@link Animal#eat()}
  * {@link Animal#work()}
  * {@link Animal#sleep()}
- * these function are in unified step
+ * these function are unified step
  * But their implementation are differences
  * @See nasserKhosravi.designpattern.behavioral.templatemethode.participants.Animal
-
  */
 public class EntryPointTemplateMethod {
-
 
     public static void run() {
         Human human=new Human();
         Bird bird=new Bird();
 
         human.doCycle();
-        System.out.println("");
         bird.doCycle();
+        System.out.println("");
     }
 }

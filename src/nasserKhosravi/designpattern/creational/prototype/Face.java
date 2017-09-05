@@ -3,7 +3,7 @@ package nasserKhosravi.designpattern.creational.prototype;
 /**
  * Created by Naser on 5/10/2017
  */
-public class Face implements Cloneable{
+public class Face implements Cloneable {
     public int getCountHair() {
         return countHair;
     }
@@ -60,8 +60,6 @@ public class Face implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return new Face(countHair,countBeard,beardType,typeLip,eyeColor);
+        return new Face(countHair, countBeard, beardType, typeLip, eyeColor);
     }
-
-
 }

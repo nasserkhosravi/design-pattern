@@ -6,7 +6,7 @@ import nasserKhosravi.designpattern.behavioral.memento.participants.WeightSnapSh
 
 /**
  * Created by Naser on 5/9/2017
- * we have a solider we want record his weight and we want back his weight to previous
+ * we have a solider we want record his weight and we want back his weight
  */
 public class EntryPointMemento {
 

@@ -28,7 +28,6 @@ public final class EntryPointAdapter {
         System.out.println("Mr "+regularPerson.getFamily()+" "+resultRegularPerson);
         System.out.println("Mr "+specialPerson.getFamily()+" "+resultSpecialPerson);
 
-
         RegularToPersonAdapter regularToPersonAdapter = new RegularToPersonAdapter(regularPerson);
         String result=DrinkService.getFreeDrink(regularToPersonAdapter);
 

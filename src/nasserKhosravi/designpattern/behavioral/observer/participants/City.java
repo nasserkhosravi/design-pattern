@@ -9,7 +9,6 @@ import nasserKhosravi.designpattern.behavioral.observer.participants.obseverable
  */
 
 public class City {
-
     private String name;
     private PopulationObserverAble subject;
     private UrbanOpenSpaceObserver urbanOpenSpaceObserver;
@@ -21,12 +20,10 @@ public class City {
         subject=new PopulationObserverAble();
         apartmentObserver=new ApartmentObserver(subject);
         urbanOpenSpaceObserver =new UrbanOpenSpaceObserver(subject);
-
     }
 
 
     public void setPopulation(final int population){
-
         subject.setPopulation(population);
         subject.notifyObservers();
     }

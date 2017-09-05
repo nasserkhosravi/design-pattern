@@ -4,7 +4,7 @@ import nasserKhosravi.designpattern.behavioral.observer.participants.City;
 
 /**
  * Created by Naser on 5/9/2017
- * we have a subject as population that every change in population change city's requirement
+ * we have a subject as population that every change in population CHANGE city's requirement
  * the requirement consist of  Apartment and Urban open space
  */
 public class EntryPointObserver {

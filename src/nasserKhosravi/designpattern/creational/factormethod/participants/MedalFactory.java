@@ -13,7 +13,6 @@ public class MedalFactory {
         }else if (score <299){
             return new Gold();
         }
-
         return null;
     }
 

@@ -13,12 +13,10 @@ public class TVFactory {
         Tv tv=map.get(size);
 
         if (tv == null){
-
             tv=new Tv(size);
             map.put(size,tv);
             System.out.println("new instance");
         }
-
         return tv;
     }
 
